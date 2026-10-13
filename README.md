@@ -130,8 +130,6 @@ arc-flash [-all] [-no-elevate]                                the app (default)
 
 `-disk` takes the ID from `list`: `PhysicalDrive2` on Windows, `sdb` on Linux, `disk4` on macOS.
 
-Set `GITHUB_TOKEN` if you hit GitHub's API rate limit.
-
 ---
 
 ## 📚 Documentation
