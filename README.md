@@ -22,7 +22,7 @@ and update a loader stick to a newer release without losing its settings.
 > * The app is free and will stay free forever. If you paid a suspicious person for it, I can't help you — I'm not connected to them.
 
 > [!WARNING]
-> **Flash** replaces everything on the chosen stick. Check the device before you press **Start**, and back up anything on it first. I'm not liable for damage or loss of any kind.
+> Arc/Arx Flash writes to the device you choose. **Flash** replaces everything on it; **Update** rewrites the loader on it and keeps the settings, but a stick that fails or is pulled out midway can still lose them. Check the device before you press **Start**, and back up anything on it first. I'm not liable for damage or loss of any kind.
 
 ---
 
@@ -36,6 +36,7 @@ and update a loader stick to a newer release without losing its settings.
 * **Safe to interrupt** — the partition table and boot code are written last, so a stick that was pulled halfway never looks like a loader
 * **Backups** — the files Update saves stay on this computer, the last 3 per loader
 * **One file, nothing to install** — a native app with no browser, web view or runtime, styled like Arc Control, in light and dark
+* **Stays current** — the app checks for a newer Arc/Arx Flash at start and links to it; **Info** shows its version and credits
 * **Command line** — every action also works without the window
 
 ---
